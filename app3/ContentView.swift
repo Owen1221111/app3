@@ -197,9 +197,8 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .leading, spacing: 16) {
-                Text("Investing")
-                    .font(.system(size: 23))
-                    .foregroundColor(isDarkMode ? .white : .black)
+                Text("Investing 123")
+                    .font(.system(size: 35, weight: .bold))
                 
                 HStack(alignment: .top) {
                     VStack(alignment: .leading, spacing: 4) {
